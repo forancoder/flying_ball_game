@@ -160,5 +160,5 @@ process_mode = 2
 [connection signal="launch" from="." to="Ball" method="_on_main_launch"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="body_entered" from="Resetter" to="." method="_on_resetter_body_entered"]
-[connection signal="body_entered" from="Recipient/PointCounter" to="." method="_on_point_counter_body_entered"]
 [connection signal="body_entered" from="Recipient/PointCounter" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Recipient/PointCounter" to="." method="_on_point_counter_body_entered"]

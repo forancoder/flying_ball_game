@@ -18,7 +18,7 @@ var is_game_over = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	game_over.hide()
-	game_over.connect("restart", self, "_on_game_over_restart")
+	#game_over.connect("restart", self, "_on_game_over_restart")
 
 #func _input(event):
 	#if event.is_action_pressed("move_left"):
